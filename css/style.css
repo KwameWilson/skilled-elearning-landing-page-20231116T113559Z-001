@@ -10,6 +10,7 @@ body {
     color: #83869A;
     font-family: "Plus Jakarta Sans";
     font-size: 18px;
+    position: relative;
 }
 
 .container {
@@ -60,4 +61,77 @@ header h6 {
 header a {
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
     padding: 19px 32px;
+}
+
+.hero-image {
+    position: absolute;
+    top: -25px;
+    right: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 80px;
+
+}
+
+.grid__item-red {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 15px;
+    padding: 64px 32px 138px;
+}
+
+.grid__item-red h2 {
+    color: #fff;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    width: 286px;
+    /* height: 120px; */
+}
+
+.grid-item {
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+    height: 322px;
+    padding: 64px 32px 40px;
+    position: relative;
+}
+
+.grid-item h3:first-child {
+    color: #13183F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.grid-item h6 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+.grid-item h3:nth-child(3) {
+    color: #F74780;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.grid-item span {
+    position: absolute;
+    left: 32px;
+    top: -28px;
+}
+
+.grid-item.xtra-margin h6 {
+    margin-bottom: 52px;
 }
