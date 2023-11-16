@@ -64,7 +64,6 @@ header a {
 }
 
 .hero-image {
-    width: 991.631px;
     position: absolute;
     top: -25px;
     right: 0;
@@ -147,7 +146,7 @@ header a {
 .logo__btn-footer {
     width: 1110px;
     height: 56px;
-    margin: 0 auto ;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     text-align: center;
