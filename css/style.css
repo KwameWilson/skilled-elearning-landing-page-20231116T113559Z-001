@@ -18,7 +18,7 @@ body {
     margin: 24px auto 140px;
 }
 
-.logo-btn {
+.logo__btn-top {
     display: flex;
     justify-content: space-between;
     margin-bottom: 172px;
@@ -30,7 +30,7 @@ a.btn {
     text-decoration: none;
 }
 
-.logo-btn a {
+.logo__btn-top a {
     background: #13183F;
     padding: 14px 32px;
 }
@@ -64,6 +64,7 @@ header a {
 }
 
 .hero-image {
+    width: 991.631px;
     position: absolute;
     top: -25px;
     right: 0;
@@ -74,7 +75,6 @@ header a {
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
     grid-row-gap: 80px;
-
 }
 
 .grid__item-red {
@@ -135,3 +135,29 @@ header a {
 .grid-item.xtra-margin h6 {
     margin-bottom: 52px;
 }
+
+.footer {
+    background: #13183f;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: 120px;
+}
+
+
+.logo__btn-footer {
+    width: 1110px;
+    height: 56px;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.logo__btn-footer a {
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    padding: 14px 32px;
+}
+
+
+.logo__btn-footer {}
